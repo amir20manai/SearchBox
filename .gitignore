@@ -1,5 +1,36 @@
-__pycache__/
+
+# Environment variables and secrets
 .env
-indexdir/
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+env/
+
+# Vector databases and indexes
 chroma_db/
+indexdir/
+
+# Personal and uploaded documents
 documents/
+uploads/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
